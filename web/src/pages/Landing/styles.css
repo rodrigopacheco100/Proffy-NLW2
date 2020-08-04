@@ -58,7 +58,7 @@
 
 .buttons-container a img {
 	width: 4rem;
-	margin-right: 2.4rem;
+	margin-right: 0.7rem;
 }
 
 .buttons-container a.study {
@@ -122,6 +122,7 @@
 	.buttons-container {
 		grid-area: buttons;
 		justify-self: flex-start;
+		margin: 0;
 	}
 
 	.buttons-container a {
