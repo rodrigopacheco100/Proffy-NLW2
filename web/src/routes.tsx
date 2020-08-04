@@ -9,8 +9,8 @@ const Routes: React.FC = () => {
    return (
       <BrowserRouter>
          <Route exact path="/" component={Landing} />
-         <Route path="/TeacherForm" component={TeacherForm} />
-         <Route path="/TeacherList" component={TeacherList} />
+         <Route path="/study" component={TeacherList} />
+         <Route path="/give-classes" component={TeacherForm} />
       </BrowserRouter>
    );
 }

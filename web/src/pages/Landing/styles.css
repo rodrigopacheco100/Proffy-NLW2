@@ -38,7 +38,7 @@
 }
 
 .buttons-container a {
-	width: 30rem;
+	width: 22rem;
 	height: 10.4rem;
 	border-radius: 0.8rem;
 	font: 700 2.0rem Archivo;
@@ -89,6 +89,10 @@
 	margin-left: 0.6rem;
 }
 
+.container {
+	text-align: center;
+}
+
 @media (min-width: 1100px) {
 	#page-landing-content {
 		max-width: 1100px;
@@ -118,6 +122,7 @@
 	.hero-image {
 		grid-area: hero;
 		justify-self: end;
+		max-width: 700px;
 	}
 
 	.buttons-container {
@@ -128,6 +133,7 @@
 
 	.buttons-container a {
 		font-size: 2.4rem;
+		width: 30rem;
 	}
 
 	.total-connections {
