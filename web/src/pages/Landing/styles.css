@@ -16,6 +16,7 @@
 
 .hero-image {
 	width: 100%;
+	max-width: 480px;
 }
 
 .logo-container {
