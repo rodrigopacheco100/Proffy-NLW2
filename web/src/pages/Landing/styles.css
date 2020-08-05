@@ -10,6 +10,10 @@
 	background: var(--color-primary);
 }
 
+#page-landing-content {
+	text-align: center;
+}
+
 .logo-container img {
 	height: 10rem;
 }
@@ -87,10 +91,6 @@
 
 .total-connections img {
 	margin-left: 0.6rem;
-}
-
-.container {
-	text-align: center;
 }
 
 @media (min-width: 1100px) {
