@@ -19,10 +19,6 @@ interface TeacherItemProps {
    }
 }
 
-interface Teacher {
-
-}
-
 const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
 
    function createNewConnection() {
@@ -47,7 +43,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
                Preço/hora
                <strong>R$ {teacher.cost},00</strong>
             </p>
-            <a onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`} target="_blank" rel="noopener noreferrer">
+            <a onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}/?text=Olá Proffy!`} target="_blank" rel="noopener noreferrer">
                <img src={whatsappIcon} alt="Whatsapp" />
                Entrar em contato
             </a>

@@ -17,7 +17,9 @@ const Landing: React.FC = () => {
 
     useEffect(() => {
         api.get('connections').then(response => {
-            setTotalConnections(response.data.total)
+            const { total } = response.data
+
+            setTotalConnections(total)
         })
     }, [])
 
