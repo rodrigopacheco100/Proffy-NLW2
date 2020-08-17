@@ -94,7 +94,6 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
         </View>
       </View>
 
-
     </View>
   );
 }
